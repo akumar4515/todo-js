@@ -1,0 +1,99 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+body{
+    display: flex;
+    flex-direction:column;
+    width:100%;
+}
+
+.header{
+  color: rgb(106, 101, 107);
+  background-color: azure;
+  width:100vw;
+  height:50px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid rgb(101, 143, 223) 2px;
+  box-shadow: 0 0 100px rgb(117, 186, 212);
+}
+
+.input_body{
+    margin-top:50px;
+    display:flex;
+    justify-content: center;
+    width:100%;
+
+}
+
+#input{
+    width:100%;
+    height:50px;
+    font-size: xx-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    border-radius: 2%;
+
+}
+#btn{
+    height:54px;
+    width:100px;
+    font-size: larger;
+    font-weight: 500;
+    background-color: rgb(21, 133, 231);
+    border-color: rgb(21, 133, 231);
+    border-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.list{
+    display:flex;
+
+  
+    justify-content: center;
+}
+.main_list{
+    margin-top:10px;
+    padding-bottom:10px;
+    display:flex;
+    flex-direction: column;
+  align-items: center;
+    border-radius:2px;
+    width:500px;
+    background-color: rgb(183, 193, 202);
+    overflow:hidden;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:50px;
+    width:90%;
+    border:solid wheat 1px;
+    background-color: rgb(190, 221, 226);
+    margin-top:10px;
+    padding:3px;
+    text-decoration:none;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.item:hover{
+    box-shadow: 0 0  10px rgb(160, 65, 65);
+
+}
+
+#delbtn{
+    height:30px;
+    width:70px;
+    background-color: aqua;
+    border:solid aqua 1px;
+    font-weight: 700;
+}
+#delbtn:hover{
+    box-shadow: 0 0  10px rgb(27, 27, 27);
+
+}
